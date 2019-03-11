@@ -1,0 +1,26 @@
+{
+  "name": "rectangle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rectangle.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaofan1997/rectangle.git"
+  },
+  "author": "lxiaofan1997",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lixiaofan1997/rectangle/issues"
+  },
+  "homepage": "https://github.com/lixiaofan1997/rectangle#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  }
+}
