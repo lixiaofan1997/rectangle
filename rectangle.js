@@ -1,3 +1,4 @@
+/* global rectangle: true */
 $(function(){
   var $width=$('#width'),
       $height=$('#height'),

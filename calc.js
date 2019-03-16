@@ -1,12 +1,13 @@
-function rectangle(width, height) {
+/* exported rectangle */
+function rectangle(width, height) {// eslint-disable-line
   var w = Number(width),
       h = Number(height);
 
-   this.area = function() {
+  this.area = function() {
     return w * h;
   };
 
-   this.perimeter = function() {
+  this.perimeter = function() {
     return 2 * (w + h);
   };
 }

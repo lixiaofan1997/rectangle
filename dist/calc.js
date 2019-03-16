@@ -1,0 +1,1 @@
+function rectangle(e,r){var t=Number(e),n=Number(r);this.area=function(){return t*n},this.perimeter=function(){return 2*(t+n)}}module.exports=rectangle;
