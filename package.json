@@ -14,7 +14,8 @@
     "grunt-eslint": "^21.0.0",
     "grunt-htmlhint": "^0.9.13",
     "grunt-mocha": "^1.2.0",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "gitbook-cli": "^2.3.2"
   },
   "scripts": {
     "test": "grunt lint && grunt unitTest"
