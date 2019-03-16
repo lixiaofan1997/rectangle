@@ -1,22 +1,32 @@
 {
-      "name": "rectangle",
-      "version": "1.0.0",
-      "description": "",
-      "main": "index.js",
-      "scripts": {
-            "test": "echo \"Error: no test specified\" && exit 0"
-      },
-      "repository": {
-            "type": "git",
-            "url": "git+https://github.com/lixiaofan1997/rectangle.git"
-      },
-      "author": "lixiaofan1997",
-      "license": "MIT",
-      "bugs": {
-            "url": "https://github.com/lixiaofan1997/rectangle/issues"
-      },
-      "homepage": "https://github.com/lixiaofan1997/rectangle#readme",
-      "devDependencies": {
-            "gitbook-cli": "^2.3.2"
-      }
+  "name": "rectangle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rectangle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-mocha": "^1.2.0",
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "test": "grunt lint && grunt unitTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaofan1997/rectangle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lixiaofan1997/rectangle/issues"
+  },
+  "homepage": "https://github.com/lixiaofan1997/rectangle#readme"
 }

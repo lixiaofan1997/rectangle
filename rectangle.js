@@ -5,13 +5,8 @@ $(function(){
       $perimeter=$('#perimeter'),
       $area=$('#area');
   $btncal.click(function(){
-    var w=Number($width.val()),
-        h=Number($height.val());
-    var p=2*(w+h),
-        a=w*h;
-    $perimeter.val(p);
-    $area.val(a);
-
+      var rect = new rectangle($width.val(),$height.val());
+      $area.val(rect.area());
+      $perimeter.val(rect.perimeter());             
   });
-  
 });
