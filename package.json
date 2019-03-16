@@ -17,7 +17,7 @@
     "mocha": "^6.0.2"
   },
   "scripts": {
-    "test": "test": "grunt lint && grunt unitTest"
+    "test": "grunt lint && grunt unitTest"
   },
   "repository": {
     "type": "git",
