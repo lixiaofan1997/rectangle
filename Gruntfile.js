@@ -20,13 +20,13 @@ module.exports = function (grunt) {
       src: '*.html'
     },
     mocha: {
+      test:{
+        src:['./test/index.html']      
+      },   
       options:{
         run:true,
         reporter:'Spec'                        
-      },
-      test:{
-        src:['test/index.html'],                
-      }                              
+      }                       
     },
     htmlmin: {
       options: {
@@ -89,6 +89,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-usemin');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.registerTask('lint', ['htmlhint', 'csslint', 'eslint']);
-  grunt.registerTask('unitTest', ['mocha']);
+  grunt.registerTask('test', ['mocha']);
   grunt.registerTask('release', ['copy', 'useminPrepare', 'concat', 'uglify', 'usemin', 'cssmin', 'htmlmin', 'clean']);
 };
