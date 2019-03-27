@@ -1,14 +1,12 @@
 /* exported rectangle */
-function rectangle(width, height) {// eslint-disable-line
-  var w = Number(width),
-      h = Number(height);
-
-  this.area = function() {
-    return w * h;
-  };
-
-  this.perimeter = function() {
-    return 2 * (w + h);
+function rectangle() {// eslint-disable-line
+  return{
+    'perimeter':function(width,height){
+      return 2*(Number(width)+Number(height));
+    },
+    'area':function(width,height){
+      return (Number(width)*Number(height));
+    }
   };
 }
 module.exports=rectangle;

@@ -34,8 +34,8 @@ module.exports = function (grunt) {
         preserveLineBreaks: false                        
       },
       files: {
-        src: 'dist/index.html',
-        dest: 'dist/index.html'
+        src: './index.html',
+        dest: './dist/index.html'
       }
     },
     cssmin: {
@@ -69,13 +69,6 @@ module.exports = function (grunt) {
           
     },
     clean: ['dist/bundle.js', '.tmp'],
-    copy: {
-      html: {
-        src: './index.html',
-        dest: './dist/index.html'                        
-      }
-                    
-    }
   });
   grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-htmlhint');

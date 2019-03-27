@@ -1,7 +1,6 @@
 {
   "name": "rectangle",
   "version": "1.0.0",
-  "description": "",
   "main": "rectangle.js",
   "directories": {
     "test": "test"
@@ -35,5 +34,6 @@
   "bugs": {
     "url": "https://github.com/lixiaofan1997/rectangle/issues"
   },
-  "homepage": "https://github.com/lixiaofan1997/rectangle#readme"
+  "homepage": "https://github.com/lixiaofan1997/rectangle#readme",
+  "description": ""
 }
