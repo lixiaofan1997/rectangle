@@ -20,3 +20,11 @@ span{
   color:red;
   margin-left:45px;
 }
+input:valid+span:after{
+  content:"";
+  color:green;
+}
+input:invalid+span:after{
+  content:"x";
+  color:red;
+}

@@ -10,18 +10,16 @@
 <div id="main">
   <h1>矩形计算器</h1>
   <br>
+  <form>
   <lable>宽度:</lable>
-  <input id= "width" type="text">
-  <span>*</span>
-  <br>
-  <div id="width-validation"></div>
+  <input id="width" type="number" min="0"  step="0.01" required autofocus/>
+  <br/>
   <lable>高度:</lable>
-  <input id= "height" type="text">
-  <span>*</span>
+  <input id="height" type="number" min="0" step="0.01"  required>
   <br>
-  <div id="height-validation"></div>
   <input id="calculate" type="button" value="计算">
-  <br>
+  <br/>
+  </form>
   <lable>周长:</lable>
   <input id="perimeter" type="text" disabled>
   <br>
